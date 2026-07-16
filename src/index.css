@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Gaegu:wght@400;700&family=Gowun+Batang:wght@400;700&family=Inter:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", "Gowun Batang", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Gowun Batang", Georgia, serif;
+  --font-hand: "Gaegu", cursive;
+  
+  --color-brand-bg: #FCF9F5;
+  --color-brand-text: #2C211E;
+  --color-brand-accent: #FF5A36;
+  --color-brand-dark: #1E120F;
+  --color-brand-muted: #645550;
+  --color-brand-border: #E6D7C7;
+}
+
+/* Custom scrollbar in beautiful pastel */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-brand-bg);
+}
+::-webkit-scrollbar-thumb {
+  background: #f1dfd8;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-brand-accent);
+}
+
+@keyframes wave {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-4px); }
+}
+
+.animate-gentle-wave {
+  animation: wave 3s ease-in-out infinite;
+}
+

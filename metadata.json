@@ -1,0 +1,6 @@
+{
+  "name": "감천문화마을",
+  "description": "부산을 대표하는 세계적인 관광명소, 감천문화마을의 알록달록한 파스텔 톤 감성과 다양한 부대시설을 소개하는 홈페이지입니다.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
